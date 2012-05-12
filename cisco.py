@@ -1,18 +1,19 @@
 #!/usr/bin/env python 
+"""cisco fabric automation file
+
+   invoke with:
+
+       $fab -f cisco.py --list
+"""
+from fabric.api import *
 
 #I am going to be very honest here, if you can't figure out what these
 # commands do on your switch or router, DO NOT RUN THEM. Know what you
 # are doing before you do it.
 
 __author__ = "Joseph Kern"
-__credits__ = ["Joseph Kern",]
-__license__ = "GPL"
-__version__ = "1.0"
-__maintainer__ = "Joesph Kern"
-__email__ = "jkern@semafour.net"
 __status__ = "Testing/Unstable"
 
-from fabric.api import *
 
 # Privileges. Not sure what to do if prompted for a config t password
 # from an enabled prompt ...
