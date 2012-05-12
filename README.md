@@ -27,6 +27,6 @@ __next clone this repo__
 __List the available commands__
 
 	fab -f cisco.py --list
-	fab -H switch1,switch2,switch3 copy_run_start
+	fab -f cisco.py -H switch1,switch2,switch3 copy_run_start
 
 [fab]: https://github.com/fabric/fabric
