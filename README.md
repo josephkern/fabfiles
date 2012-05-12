@@ -16,13 +16,16 @@ these in a production environment, I will change `__status__` to
 `Production`. Before that, use at your own risk.
 
 __First install fabric__
+
 	pip install fabric
 	
 __next clone this repo__
+
 	git clone git@github.com:josephkern/fabfiles.git
 	cd fabfiles
 
 __List the available commands__
+
 	fab -f cisco.py --list
 	fab -H switch1,switch2,switch3 copy_run_start
 
